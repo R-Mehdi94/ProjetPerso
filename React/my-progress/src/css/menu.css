@@ -1,4 +1,5 @@
 .menu{
+    background-color: #686963;
     font-size: 1.2em;
 }
 
@@ -8,3 +9,24 @@ ul{
     flex-direction: row;
     justify-content: space-between;
 }
+
+a{
+    text-decoration: none;
+    color:black ;
+}
+
+.activeLink{
+    color: brown;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+li:hover{
+    transition: all 0.6s ease;
+    opacity: 0.4;
+    
+    
+}
+

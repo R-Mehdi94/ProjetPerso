@@ -1,3 +1,4 @@
+import { Route, Routes } from 'react-router-dom';
 import Menu from './components/Menu';
 import './css/app.css';
 import Home from './pages/Home';
@@ -7,14 +8,19 @@ import TechnoList from './pages/TechnoList';
 function App() {
   return (
     <>
+    
     <Menu/>
-    <Home/>
-    <TechnoAdd/>
-    <TechnoList/>
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/add' element={<TechnoAdd/>}/>
+      <Route path='/list' element={<TechnoList/>}/>
+
+    </Routes>
+    
     </>
     
   );
 }
 
 export default App;
-//34:41
+//46:19
