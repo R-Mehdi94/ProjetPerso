@@ -1,3 +1,71 @@
 .techno-add{
-    background-color: rgb(189,250,153);
+    padding: 20px;
+}
+
+.btn {
+  background-color: #3E8E4B;
+  color: black;
+  padding: 14px 200px;
+  margin: auto;
+  border: black solid 1px ;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+.center{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display:grid;
+}
+
+
+input[type=text] {
+  background-color: transparent;
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border:solid 2px ;
+  border-color: black;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+textarea {
+  background-color: transparent;
+  width: 100%;
+  height: 100px;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid ;
+  border-color: black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align:start;
+}
+
+select {  
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid ;
+  border-color: black;
+  background-color: transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    text-align: center;
 }

@@ -1,8 +1,17 @@
-export default function TechnoList(){
+import TechnoItem from "../components/Technoitem";
+
+export default function TechnoList(props){
+    const {technos, handleDeleteTechno} = props;
     return(
         <div className="techno-list">
             <h1>All Techno</h1>
-            <p>Todo display all techno added</p>
+            <div>
+                {
+                    technos.map(techno =>(
+                        <TechnoItem techno={techno} key={techno.technoid} handleDeleteTechno={handleDeleteTechno}/>
+                    ))
+                }    
+            </div>
         </div>
     )
 }
